@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.traffic {
+  width: 300px;
+  height: 500px;
+  margin: 10px auto;
+  padding: 20px 70px;
+  background-color: black;
+}
+
+.traffic-light-red {
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  color: #7c0808;
+  font-size: 30px;
+  padding: 55px 35px;
+}
+
+.traffic-light-yellow {
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  color: orange;
+  font-size: 30px;
+  padding: 55px 35px;
+}
+
+.traffic-light-green {
+  background-color: white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  color: #19570a;
+  font-size: 35px;
+  padding: 55px 45px;
+}
